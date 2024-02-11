@@ -12,7 +12,7 @@ Web page to show available fullscreen api features for your browser.
 
 This project consists of a web page that shows the availability of the different elements of the web Fullscreen API.
 
-The page can also be used live.
+The page can also be used [live](https://bepo65.github.io/fullscreen-features/).
 
 ## License
 
