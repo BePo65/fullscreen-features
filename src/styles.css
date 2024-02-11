@@ -1,0 +1,58 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-type {
+  margin: 2em 0 0.3em;
+}
+
+.browser-group {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-template-rows: 1fr;
+  gap: 0.5em 1.5em;
+  grid-template-areas:
+    ". .";
+}
+
+.feature-group {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-template-rows: 1fr;
+  gap: 0.5em 1.5em;
+  grid-template-areas:
+    ". .";
+}
+
+.circle-green {
+  background: greenyellow;
+  border-radius: 50%;
+  display: inline-block;
+  height: 1em;
+  margin: 0 0.5em 0 0;
+  width: 1em;
+}
+
+.circle-red {
+  background: red;
+  border-radius: 50%;
+  display: inline-block;
+  height: 1em;
+  margin: 0 0.5em 0 0;
+  width: 1em;
+}
+
+.feature-text {
+  display: inline-block;
+}
+
+.error-message-show {
+  color: red;
+  display: inherit;
+  font-weight: bold;
+  margin: 2em 0 0;
+}
+
+.error-message-hide {
+  display: none;
+}
