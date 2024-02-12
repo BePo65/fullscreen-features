@@ -60,13 +60,7 @@ const notAvailableString = 'not available';
 
 // browser detection
 window.document.getElementById('user-agent-header').innerHTML = navigator.userAgent;
-
-if (window.navigator.userAgentData) {
-  window.document.getElementById('browser-codename').innerHTML = window.navigator.userAgentData.appCodeName ?? notAvailableString;
-  window.document.getElementById('browser-name').innerHTML = window.navigator.userAgentData.appName ?? notAvailableString;
-  window.document.getElementById('browser-version').innerHTML = window.navigator.userAgentData.appVersion ?? notAvailableString;
-  window.document.getElementById('browser-platform').innerHTML = window.navigator.userAgentData.platform ?? notAvailableString;
-}
+window.document.getElementById('browser-platform').innerHTML = window.navigator.platform ?? notAvailableString;
 
 // feature detection
 const fullscreenInterfaces = {
