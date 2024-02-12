@@ -4,7 +4,6 @@
   "description": "Web page to show available fullscreen api features for your browser.",
   "main": "src/index.html",
   "scripts": {
-    "build:ghpages": "del-cli ghpages && cpy \"src/**\" ghpages"
   },
   "keywords": [],
   "repository": {
@@ -12,9 +11,5 @@
     "url": "https://github.com/BePo65/fullscreen-features.git"
   },
   "author": "Bernhard Pottler",
-  "license": "MIT",
-  "devDependencies": {
-    "cpy-cli": "^5.0.0",
-    "del-cli": "^5.1.0"
-  }
+  "license": "MIT"
 }
