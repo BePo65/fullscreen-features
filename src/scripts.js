@@ -72,12 +72,14 @@ const fullscreenInterfaces = {
   ],
   newWebkit: [
 		{ functionName: 'webkitRequestFullscreen', baseElement: testDiv },
+		{ functionName: 'webkitEnterFullscreen', baseElement: testDiv },
 		{ functionName: 'webkitExitFullscreen', baseElement: window.document },
 		{ functionName: 'webkitFullscreenElement', baseElement: window.document },
 		{ functionName: 'webkitFullscreenEnabled', baseElement: window.document }
   ],
 	oldWebKit: [
 		{ functionName: 'webkitRequestFullScreen', baseElement: testDiv },
+		{ functionName: 'webkitEnterFullscreen', baseElement: testDiv },
 		{ functionName: 'webkitCancelFullScreen', baseElement: window.document },
 		{ functionName: 'webkitCurrentFullScreenElement', baseElement: window.document },
 		{ functionName: 'webkitCancelFullScreen', baseElement: window.document }

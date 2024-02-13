@@ -1,6 +1,6 @@
 {
   "name": "fullscreen-features",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Web page to show available fullscreen api features for your browser.",
   "main": "src/index.html",
   "scripts": {
